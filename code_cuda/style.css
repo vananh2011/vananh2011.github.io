@@ -91,9 +91,7 @@ header{
 	text-align: center;
 	padding-bottom: 127px;
 }
-.head_services{
-	
-}
+
 .head_services:last-child{
 	margin-right: 0px;
 }
@@ -327,10 +325,12 @@ header{
 .social_media{
 	background: rgb(52, 75, 142);
 	border-top: 1px solid rgb(60, 84, 154);
-	
+	padding:50px 0;
 }
+
 .social_media a{
-	color: wheat;
+	color:#fff;
+	font-size:24px;
 }
 .nav_item{
 	padding-left: 236px;
