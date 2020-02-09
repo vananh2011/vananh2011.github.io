@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css?family=Pacifico&display=swap");
+body {
+  background: #88746a;
+  font-family: 'Pacifico', cursive; }
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  color: #b32317;
+  background: #ffdd9f; }
+
+.page2 {
+  padding-top: 300px;
+  padding-left: 40px; }
+  .page2 .img3 {
+    width: 100%;
+    height: auto; }
+  .page2 .child3 {
+    margin-top: 100px; }
+  .page2 .item {
+    display: block;
+    border-style: none;
+    padding-right: 200px;
+    border-bottom: 2px solid #ffd24f;
+    margin-bottom: 20px;
+    background: #ffdd9f;
+    margin-left: 20px;
+    color: #88746a;
+    font-size: 14px;
+    padding-bottom: 10px; }
+  .page2 .child5 {
+    margin-top: 70px; }
+    .page2 .child5 textarea {
+      margin-top: -360px;
+      margin-left: 80px;
+      width: 310px;
+      color: #88746a;
+      font-size: 20px;
+      display: block;
+      height: auto; }
+  .page2 .child4 {
+    margin-top: 70px;
+    text-align: center; }
+    .page2 .child4 button {
+      background: #b32317;
+      color: #aaa;
+      text-transform: uppercase;
+      padding: 20px 100px;
+      box-shadow: 0px 4px #c04034; }
+
+label {
+  font-size: 16px;
+  text-transform: capitalize;
+  display: block; }
+
+.page1 {
+  background: url(image/lo.png) left top no-repeat;
+  background-size: 250px 200px; }
+  .page1 h1 {
+    font-size: 50px;
+    color: #ec540a;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: 2px 3px 5px #ffd24f;
+    padding-top: 50px; }
+  .page1 .child1 {
+    background: url(image/3.png) left bottom no-repeat;
+    border-style: double;
+    border-color: #0004ff2e;
+    margin-left: 30px;
+    background: #fff;
+    margin-top: 300px; }
+    .page1 .child1 .child1-item {
+      color: #88746a;
+      font-size: 22px;
+      margin-top: 50px;
+      padding-bottom: 500px; }
+  .page1 .child2 {
+    margin-top: 70px;
+    padding-left: 190px; }
+
+/*# sourceMappingURL=happy.css.map */
