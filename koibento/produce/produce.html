@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>produce</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="bg">
+        <div class="container">
+            <h1>Shop</h1>
+            <p>
+                <a href="#">Koi Bento-Nhà Hàng Nhật</a>
+                <a href="#">Food</a>
+                <a href="#">Big Bento</a>
+                <span>LƯƠN NHẬT NƯỚNG SỐT TERI</span>
+            </p>
+        </div>
+    </div>
+    <div class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-8 col-md-12 col-12">
+                    <div class="row">
+                        <div class="col-xl-6 col-md-12 col-12">
+                            <img src="img/koi.png" alt="koi" width="407px" height="auto">
+                        </div>
+                        <div class="col-xl-6 col-md-12 col-12">
+                            <div class="content">
+                                <div class="content-top">
+                                    <h2>Lươn Nhật nướng sốt teri <span>100000000000000Đ</span></h2>
+                                    <p>Lươn Nhật nướng sốt tery, Cơm trắng, Salad, Súp Miso và Tráng miệng</p>
+                                </div>
+                                <div class="content-bot" id="app">
+                                    <form action="" method="">
+                                        <button type="button" @click="countDown()">-</button>
+                                        <input type="number" name="number" v-model="counter">
+                                        <button type="buton" @click="countUp()">+</button>
+                                        <button type="submit" class="add-cart">ADD TO CART</button>
+                                    </form>
+                                    <p class="like"><a href="#">Thêm vào yêu thích</a></p>
+                                    <p>Category:<a href="#">Big Bento</a></p>
+                                    <p>Tags:
+                                        <a href="#">bento</a>
+                                        <a href="#">com hop</a>
+                                        <a href="#">cơm hộp bento</a>
+                                        <a href="#">Cơm hộp nhật bản</a>
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="banner-form">
+                        <h3>Đánh Giá</h3>
+                        <p>Chưa Có Đánh Giá Nào</p>
+                        <h4>Hãy Là Người Đầu Tiên Nhận Xét "CÁ NƯỚNG SỐT BƠ TỎI"</h4>
+                        <form action="" method="">
+                            <div class="input-group ">
+                                <!-- <div class="input-group-prepend">
+                              <span class="input-group-text">@</span>
+                            </div> -->
+                                <textarea type="text" class="form-control" placeholder="Comment*"></textarea>
+                            </div>
+                            <div class="form-row ">
+                                <div class="col ">
+
+                                    <input type="text" class="form-control" id="name" placeholder="Name*" name="name">
+                                </div>
+                                <div class="col ">
+                                    <input type="emaiil" class="form-control" placeholder="Email*" name="email">
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-outline-danger">Gửi Đi</button>
+                        </form>
+                    </div>
+                    <div class="banner-bot">
+                        <h3>Các Sản Phẩm liên Quan</h3>
+                        <div class="row">
+                            <div class="col-xl-3 col-md-12 col-12">
+                                <a href="#">
+                                    <img src="img/koi.png" alt="Koi">
+                                </a>
+                                <h3 style="margin-top:26px">Lươn Nhật Nướng Sốt Teri </h3>
+                                <span>10000đ</span>
+                                <a href="#" class="btn btn-outline-danger">Thêm giỏ Hàng</a>
+                            </div>
+                            <div class="col-xl-3 col-md-12 col-12">
+                                <a href="#">
+                                    <img src="img/rsz_beef-1-280x230.png" alt="Koi">
+                                </a>
+                                <h3>CƠM THỊT LỢN KHO SỐT NHẬT</h3>
+                                <span>10000đ</span>
+                                <a href="#" class="btn btn-outline-danger">Thêm giỏ Hàng</a>
+                            </div>
+                            <div class="col-xl-3 col-md-12 col-12">
+                                <a href="#">
+                                    <img src="img/Vegetarian.png" alt="Koi">
+                                </a>
+                                <h3  style="margin-top:26px">SUSHI RAU CỦ TẨM VỪNG</h3>
+                                <span>10000đ</span>
+                                <a href="#" class="btn btn-outline-danger">Thêm giỏ Hàng</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-12 col-12">
+                    <div class="sider-bar-header">
+                        <h3>
+                            TÌM KIẾM
+                        </h3>
+                        <form action="" method="">
+                            <div class="search">
+                                <input type="text" name="search" placeholder="Tìm kiếm...">
+                                <button type="button"><i class="fa fa-search"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="sider-bar-center">
+                        <h3>DANH MỤC</h3>
+                        <p><span>></span><a href="#" target="_self">TIN TỨC</a></p>
+                    </div>
+                    <div class="sider-bar-footer">
+                        <h3>TAGS ClOULD</h3>
+                        <a href="new2/index.html" class="btn">bento</a>
+                        <a href="#" class="btn">bento Nhật Bản</a>
+                        <a href="new2/index.html" class="btn">Cơm Nhật</a>
+                        <a href="#" class="btn">Cơm</a>
+                        <a href="new2/index.html" class="btn">Cơm Trưa</a>
+                        <a href="../index.html
+                        " class="btn">Doanh Nghiệp Xã Hội</a>
+                        <a href="../index.html" class="btn" target="">KOI BENTO</a>
+                        <a href="../index.html" class="btn">Món Nhật</a>
+                        <a href="#" class="btn">NHẬT BẢN</a>
+                        <a href="../index.html" class="btn">nấu ăn</a>
+                        <a href="../index.html" class="btn">REACH</a>
+                        <a href="new2/index.html" class="btn">Văn Hóa Ẩm Thực</a>
+                        <a href="#" class="btn">Ăn trưa</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/ead959d8f3.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Popper JS  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript  -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script>
+        new Vue({
+            el: "#app",
+            data: {
+                counter: 0,
+            },
+            methods: {
+                countUp: function () {
+                    this.counter++
+                    return this.counter;
+                },
+                countDown: function () {
+                    if (this.counter < 1) {
+                        this.counter == 0
+                    }
+                    else {
+                        this.counter--
+                        return this.counter
+                    }
+
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,202 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.bg{
+    position: relative;
+    background:linear-gradient(#646464,#646464);
+    background-image:url('img/banner.jpg') ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    h1{
+        color:#fff;
+        font-size: 48px;
+        padding: 50px 0px;
+  
+    }
+
+    p{
+       padding-bottom: 50px;
+
+       a{
+           color:#fff;
+
+       }
+       span{
+           color:#e7272d;   
+       }
+    }
+}
+.banner{
+    .content{
+        .content-top{
+            border-bottom:1px solid #e7e7e7 ;
+            margin-bottom: 30px;
+            h2{
+                color:#000;
+                text-transform: uppercase;
+                
+                padding-bottom: 22px; 
+                span{
+                    font-size:30px;
+                    color:#e7272d; 
+                  
+                }
+            }
+            p{
+                color:#646464;
+                margin: 20px 0px;
+                border-top:1px solid #e7e7e7 ;
+                padding-top: 20px;
+            }
+            
+        }
+        .content-bot{
+            input{
+                width:42px;
+                border: 1px solid #000;
+            }
+            button{
+                padding: 0px 12px;
+                background-color: #e7272d;
+                color:#fff;
+                border-style: none;
+            }
+            button:hover{
+                background: #000;
+            }
+            .like{
+                margin-top:20px;
+                a{
+                    color:#e7272d;
+                }
+            }
+            p{
+                a{
+                    color:#646464;
+                }
+                a:hover{
+                    color: #e7272d;
+                    transition: 0.5s;
+                }
+            }
+        }
+    
+    }
+     .banner-form{
+         border:1px solid #e7e7e7;
+        textarea{
+            margin-bottom: 40px;
+        }
+        input{
+            margin-bottom: 40px; 
+        }
+        button{
+            margin-bottom: 40px; 
+        }
+     }
+     .banner-bot{
+         margin-top: 20px;
+         img{
+             max-width: 100%;
+             height: auto;
+         }
+     }
+     @mixin menu-after {
+        content: "";
+        position: absolute;
+        height: 4px;
+        width:44px;
+        background: #e7272d;
+        bottom: -18px;
+        z-index: 30;
+    }
+     .sider-bar-header{
+        margin-bottom: 40px;
+     h3{
+      color:#000;
+      font-size: 30px; 
+      position: relative;
+      margin-bottom: 50px;
+     }
+     h3:after{
+         @include menu-after;
+       
+       left: 0;
+     }
+     .search{
+         border:1px solid #e7272d;
+         width: 70%;
+         input{
+            padding: 6px 12px;
+             border-style: none;
+         }
+         button{
+             background: none;
+             border: none;
+             color: #e7272d;
+         }
+     }
+ }
+ .sider-bar-center{
+    h3{
+        color:#000;
+        font-size: 30px; 
+        position: relative;
+        margin-bottom: 50px;
+       }
+       h3:after{
+           @include menu-after;
+         
+         left: 0;
+       }
+    p{
+        span{
+            color:#e7272d;
+        }
+        a{
+            color:#646464 ;
+            font-size: 14px;
+            font-family: 'Roboto Slab', serif;
+        }
+    }
+}
+.sider-bar-footer{
+    width: 75%;
+    h3{
+        color:#000;
+        font-size: 30px; 
+        position: relative;
+        margin-bottom: 50px;
+       }
+       h3:after{
+           @include menu-after;
+         
+         left: 0;
+       }
+    a{
+        padding: 5px 20px;
+        margin:0px 5px 7px 0px;
+        border:1px solid #646464;
+        color:#646464 ;
+        font-size: 14px;
+        font-family: 'Roboto Slab', serif;
+    }
+    a:hover{
+        background-color: #e7272d;
+        color:#fff;
+        border-style: 1px solid #fff;;
+        transition: 0.6s;
+    }
+} 
+}
+// .bg:before{
+//     content: "";
+//     position: absolute;
+//     background: rgba(0,0,0,0.6);
+//     top:0;
+//     left: 0;
+//     right: 0;
+//     bottom: 0;
+// }
